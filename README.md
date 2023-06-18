@@ -1,12 +1,11 @@
 # Angular Enterprise Setup
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Angular Enterprise Setup](#angular-enterprise-setup)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
 
 <!-- /code_chunk_output -->
 
@@ -23,3 +22,10 @@ In your terminal:
 - `git clone https://github.com/webia1/angular-enterprise-nx.git`
 - `cd angular-enterprise-nx`
 - `npm i`
+
+### Additional Packages
+
+#### Angular Material
+
+- `npm install @angular/material`
+- `nx g @angular/material:ng-add --project my-app1`
