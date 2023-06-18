@@ -13,6 +13,7 @@ import { StoreModule } from '@ngrx/store';
     BrowserModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
     BrowserAnimationsModule,
+    StoreModule.forRoot({}, {}),
   ],
   exports: [],
   providers: [],
