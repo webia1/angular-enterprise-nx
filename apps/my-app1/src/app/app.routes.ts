@@ -4,6 +4,6 @@ export const appRoutes: Route[] = [
   {
     path: '',
     loadChildren: () =>
-      import('./routed/routed.module').then((m) => m.RoutedModule),
+      import('./routed/jopi.module').then((m) => m.JopiModule),
   },
 ];

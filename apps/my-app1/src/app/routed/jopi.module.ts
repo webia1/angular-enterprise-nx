@@ -21,4 +21,4 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   exports: [],
 })
-export class RoutedModule {}
+export class JopiModule {}
